@@ -1,6 +1,13 @@
+import Welcome from "./Welcome"
+const isLogin = "false"
 function App() {
+  const username = 'Ashish'
   return (
-    <h1>Welcome to my react learning project.</h1>
+    <>
+      <Welcome/>
+      <h1>This is Heading {username}</h1>
+      <p>This is paragraph {isLogin}</p>
+    </>
   )
 }
 
